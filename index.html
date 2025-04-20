@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>⏱️ Vreme za rad</h2>
+    <div id="timer">25:00</div>
+    <div class="progress-bar" id="progress"></div>
+    
+    <div class="controls">
+      <button id="startBtn">▶️</button>
+      <button id="resetBtn">⏹️</button>
+    </div>
+    
+    <div class="modes">
+      <button id="workBtn" class="active">25 min rad</button>
+      <button id="breakBtn">5 min pauza</button>
+    </div>
+    
+    <h3>Istorija sesija:</h3>
+    <ul id="historyList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

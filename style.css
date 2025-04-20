@@ -1,0 +1,69 @@
+body {
+    background: #fce4ec;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    color: #d84343;
+  }
+  
+  #timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  
+  .progress-bar {
+    height: 6px;
+    background: #d84343;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .controls button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid #d84343;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+    color: #d84343;
+  }
+  
+  .modes {
+    margin-top: 20px;
+  }
+  
+  .modes button {
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid #d84343;
+    background: none;
+    color: #d84343;
+    cursor: pointer;
+  }
+  
+  .modes .active {
+    background: #d84343;
+    color: white;
+  }
+  
+  #historyList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    color: #444;
+  }
+  
