@@ -55,9 +55,9 @@ body {
   .controls button {
     font-size: 20px;
     padding: 10px;
-    margin: 0 10px;
-    border: 2px solid #d84343;
-    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid #fce4ec;
+    border-radius: 100%;
     background: none;
     cursor: pointer;
     color: #d84343;
@@ -68,6 +68,7 @@ body {
   }
   
   .modes button {
+    font-family: 'Montserrat', sans-serif;
     padding: 10px 15px;
     margin: 5px;
     border-radius: 10px;

@@ -5,6 +5,7 @@ let workBtn = document.getElementById("workBtn");
 let breakBtn = document.getElementById("breakBtn");
 let progressBar = document.getElementById("progress");
 let historyList = document.getElementById("historyList");
+let headerName = document.getElementById("header");
 
 let duration = 25 * 60;
 let timeLeft = duration;
@@ -96,5 +97,13 @@ startBtn.addEventListener("click", startTimer);
 resetBtn.addEventListener("click", resetTimer);
 workBtn.addEventListener("click", () => setMode("work"));
 breakBtn.addEventListener("click", () => setMode("break"));
+
+workBtn.addEventListener("click", () => {
+  header.textContent = "Vreme za rad";
+});
+
+breakBtn.addEventListener("click", () => {
+  header.textContent = "Vreme za pauzu";
+});
 
 updateTimerDisplay(); // initial render
