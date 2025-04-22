@@ -47,7 +47,6 @@ function updateTimerDisplay() {
 
   progressBar.style.width = `${percent * 100}%`;
   progressBar.style.backgroundColor = currentColor;
-
 }
 
 function startTimer() {
@@ -84,13 +83,6 @@ function setMode(mode) {
     workBtn.classList.remove("active");
   }
   resetTimer();
-}
-
-function addToHistory(type) {
-  const li = document.createElement("li");
-  const now = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-  li.textContent = `${type} završena u ${now}`;
-  historyList.appendChild(li);
 }
 
 startBtn.addEventListener("click", startTimer);
