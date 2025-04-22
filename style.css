@@ -1,4 +1,4 @@
-body {
+  body {
     background: #fce4ec;
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -53,11 +53,8 @@ body {
   }
   
   .controls button {
-    font-size: 20px;
-    padding: 10px;
     margin: 10px;
-    border: 2px solid #fce4ec;
-    border-radius: 100%;
+    border: none;
     background: none;
     cursor: pointer;
     color: #d84343;
@@ -71,7 +68,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 10px 15px;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 50px;
     border: 2px solid #d84343;
     background: none;
     color: #d84343;
