@@ -1,6 +1,6 @@
 body {
     background: #fce4ec;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +23,33 @@ body {
     margin: 15px 0;
   }
   
-  .progress-bar {
+  .progress-bar-container {
+    position: relative;
     height: 6px;
-    background: #d84343;
     width: 100%;
     margin-bottom: 20px;
+    background: transparent;
+  }
+  
+  .progress-bar-bg {
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    background-color: #fce4ec;
+    border-radius: 3px;
+    top: 0;
+    left: 0;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    height: 6px;
+    width: 0%;
+    background-color: #d84343;
+    border-radius: 3px;
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease;
   }
   
   .controls button {
@@ -66,4 +88,3 @@ body {
     margin-top: 10px;
     color: #444;
   }
-  
